@@ -1,0 +1,152 @@
+.my-reviews-group {
+    margin-bottom: 9px;
+    background-color: #f0f0f0;
+    overflow: hidden;
+    font-size: 14px;
+    display: table;
+    table-layout: fixed;
+}
+
+.my-reviews-layout {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    padding: 16px 0;
+}
+
+.next-tabs, .next-tabs *, .next-tabs :after, .next-tabs :before {
+    box-sizing: border-box;
+}
+
+.my-reviews-layout-main, .my-reviews-layout-minor {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: table-cell;
+    vertical-align: top;
+    padding: 0 24px;
+}
+
+.my-reviews-layout-main {
+    width: 60%;
+    border-right: 2px solid rgb(255, 165, 0);
+}
+
+.my-reviews-group-items {
+    margin-right: 60px;
+    width: 525px;
+}
+
+.my-reviews-group-header {
+    margin-bottom: 13px;
+}
+
+.my-reviews-item-bought-time {
+    color: #9e9e9e;
+}
+
+.next-tabs-strip>.next-tabs-content {
+    color: #212121;
+    background: transparent;
+}
+
+.my-reviews-item-pic {
+    width: 56px;
+    height: 56px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+
+.my-reviews-group a {
+    font-size: 14px;
+    color: orange;
+}
+
+.my-reviews-item-wrapper {
+    display: inline-block;
+    width: calc(100% - 56px);
+    vertical-align: top;
+    padding-left: 16px;
+}
+
+.my-reviews-item-title {
+    color: #212121;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.my-reviews-item-title {
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 14px;
+    line-height: 1;
+}
+
+
+.my-reviews-item-sku {
+    margin-top: 5px;
+    margin-bottom: 9px;
+    font-size: 12px;
+    line-height: 1;
+    color: #757575;
+}
+
+.my-reviews-layout-minor {
+    width: 40%;
+}
+
+.my-reviews-layout-main, .my-reviews-layout-minor {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: table-cell;
+    vertical-align: top;
+    padding: 0 24px;
+}
+
+.my-reviews-layout-sep {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 13px 0;
+    width: 1px;
+    height: 100%;
+    overflow: hidden;
+}
+
+.my-reviews-layout-sep-inner {
+    width: 100%;
+    height: 100%;
+    background-color: #eff0f5;
+}
+
+.my-reviews-group-seller {
+    margin-right: 32px;
+}
+
+.my-reviews-group-header {
+    margin-bottom: 13px;
+}
+
+[type=reset], [type=submit], button, html [type=button] {
+    -webkit-appearance: button;
+}
+
+.my-reviews__rate-button {
+    height: 28px;
+    line-height: 28px;
+    width: 160px;
+    text-transform: uppercase;
+}
+
+.next-btn-medium {
+    margin: 0;
+    height: 40px;
+    padding: 0 24px;
+    font-size: 12px;
+    line-height: 38px;
+    border-width: 1px;
+}
