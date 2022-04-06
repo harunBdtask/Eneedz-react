@@ -64,13 +64,13 @@ const Menu = ({ source, className }) => {
           <li key={index}>
             <Link href={`/category/${item.category_id}`}>
               <a>
-                {item.cat_image && (
+                {/* {item.cat_image && (
                   <img
                     src={item.cat_image}
                     alt={item.category_name}
                     className="mr-3"
                   />
-                )}
+                )} */}
                 {item.category_name}
               </a>
             </Link>
