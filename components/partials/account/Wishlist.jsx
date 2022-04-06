@@ -31,7 +31,7 @@ const Wishlist = ({ ecomerce }) => {
     }
   }, [ecomerce]);
 
-  console.log("w-products", products);
+  // console.log("w-products", products);
 
   // views
   let wishlistItemsView;

@@ -22,7 +22,7 @@ const PageContent = ({ page_id }) => {
 
     const result = await response.json();
 
-    console.log("page", result);
+    // console.log("page", result);
 
     if (result?.response_status === 200) {
       setContent(result?.data[0]);

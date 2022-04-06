@@ -56,7 +56,7 @@ const Register = () => {
         return response.json();
       })
       .then((response) => {
-        console.log("customer_signup", response);
+        // console.log("customer_signup", response);
 
         if (response.response_status === 0) {
           toast.error(response.message);

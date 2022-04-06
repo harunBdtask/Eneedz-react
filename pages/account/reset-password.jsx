@@ -54,7 +54,7 @@ const ResetPassword = () => {
     );
 
     const result = await response.json();
-    console.log("confirm_otp_password", result);
+    // console.log("confirm_otp_password", result);
     if (result.response_status === 200) {
       toast.success(result.message);
 

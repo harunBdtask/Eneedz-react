@@ -3,7 +3,7 @@ import Link from "next/link";
 import React from "react";
 
 const ModuleDetailTopInformation = ({ product }) => {
-  console.log("product", product);
+  // console.log("product", product);
   // Views
   let priceView;
   if (product.on_sale === "1") {

@@ -56,14 +56,14 @@ const VerifyOtp = () => {
 
   const OtpResendTimer = () => {
     const total = Date.parse(new Date()) - Date.parse(new Date());
-    console.log(total);
+    // console.log(total);
   };
   OtpResendTimer();
 
   const handleResendOtp = (e) => {
     e.preventDefault();
     setResendOtpClicked(true);
-    console.log(new Date() + 60000);
+    // console.log(new Date() + 60000);
 
     var formdata = new FormData();
     formdata.append("customer_mobile", phone);

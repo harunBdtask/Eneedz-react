@@ -50,7 +50,7 @@ const Login = ({ auth }) => {
 
             localStorage.removeItem("p_url");
 
-            console.log("prevUrl", prevUrl);
+            // console.log("prevUrl", prevUrl);
             // prevUrl !== undefined ||
             if (prevUrl !== null) {
               router.push(prevUrl);

@@ -7,7 +7,7 @@ import useProduct from "~/hooks/useProduct";
 
 const ProductSearchResult = ({ product }) => {
   const { thumbnailImage, price, title } = useProduct();
-  console.log("product", product);
+  // console.log("product", product);
 
   return (
     <div className="ps-product ps-product--wide ps-product--search-result">
@@ -18,7 +18,8 @@ const ProductSearchResult = ({ product }) => {
             as={`/product/${product.product_id}-${product.campaign_id}`}
           >
             <a>
-              <img src={product.image_path} alt={product?.title} />
+              {/* <img src={product.image_path} alt={product?.title} /> */}
+              <img src={`/static/img/categories/5.jpg`} alt={product?.title} />
             </a>
           </Link>
         ) : (

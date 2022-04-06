@@ -165,7 +165,7 @@ const Addresses = () => {
           const cityName = cityList?.data.find(
             (item) => item.id === address.city
           );
-          console.log("cityName", cityName);
+          // console.log("cityName", cityName);
           setOldCityName(cityName);
         }
       }
@@ -189,8 +189,8 @@ const Addresses = () => {
     const divisionID = values.division || oldDivision?.id;
     const cityID = values.city || oldCityName.id;
 
-    console.log("divisionID", divisionID);
-    console.log("cityID", cityID);
+    // console.log("divisionID", divisionID);
+    // console.log("cityID", cityID);
 
     var formdata = new FormData();
 

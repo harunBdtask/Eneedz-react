@@ -69,7 +69,7 @@ const ProductDefaultPage = () => {
       text: product ? product.title : "Loading...",
     },
   ];
-  console.log("single product", product);
+  // console.log("single product", product);
   // Views
   let productView, headerView;
   if (!loading) {
