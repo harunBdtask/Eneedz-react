@@ -237,7 +237,7 @@ const FormCheckoutInformation = ({ ecomerce }) => {
     );
     const result = await response.json();
 
-    console.log("submit_checkout", result);
+    // console.log("submit_checkout", result);
 
     if (result.response_status === 0) {
       toast.error(result.message);

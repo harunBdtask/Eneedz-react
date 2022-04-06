@@ -8,7 +8,7 @@ import TrackOrders from "~/pages/account/invoice-details/TrackOrders";
 const OrderTrackingDetails = () => {
   const Router = useRouter();
   const [orderData, setOrderData] = useState({});
-  console.log("Router", Router.query);
+  // console.log("Router", Router.query);
 
   useEffect(() => {
     const orderData = {

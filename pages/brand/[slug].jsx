@@ -43,7 +43,7 @@ const ProductsByBrand = () => {
       await Router.push("/brand");
     }
     
-    console.log(loading);
+    // console.log(loading);
   }
 
   useEffect(() => {

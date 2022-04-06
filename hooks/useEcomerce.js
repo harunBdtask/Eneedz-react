@@ -105,7 +105,7 @@ export default function useEcomerce() {
 
     addItem: (newItem, items, group) => {
       let newItems = [];
-      console.log("items", items);
+      // console.log("items", items);
 
       if (items) {
         newItems = items;
@@ -129,7 +129,7 @@ export default function useEcomerce() {
         dispatch(setCartItems(newItems));
       }
       if (group === "wishlist") {
-        console.log("newItem", newItems);
+        // console.log("newItem", newItems);
 
         setCookie("wishlist", newItems, { path: "/" });
 

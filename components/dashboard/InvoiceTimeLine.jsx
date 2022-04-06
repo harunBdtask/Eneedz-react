@@ -20,7 +20,7 @@ const InvoiceTimeLine = ({ customer_id }) => {
     );
     const result = await response.json();
 
-    console.log("manage_invoice", result);
+    // console.log("manage_invoice", result);
 
     if (result?.response_status === 200) {
       setTrackInfo(result.data.track_details);
