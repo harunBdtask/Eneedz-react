@@ -145,7 +145,7 @@ const Addresses = () => {
       if (result?.response_status === 200) {
         state = result?.data.find((item) => item.id === address.division);
         setOldDivision(state);
-        console.log("state", state);
+        // console.log("state", state);
 
         let formData = new FormData();
 
