@@ -84,14 +84,18 @@ const HomeDefaultTopCategories = ({ title, endpoint, _link }) => {
                           <a className="ps-block__overlay"></a>
                         </Link>
 
-                        {data?.image ? (
+                        {/* {data?.image ? (
                           <img src={data.image} alt="E-needz" />
                         ) : (
                           <img
                             src={`/static/img/categories/5.jpg`}
                             alt="E-needz"
                           />
-                        )}
+                        )} */}
+                        <img
+                          src={`/static/img/categories/5.jpg`}
+                          alt="E-needz"
+                        />
                         <p>
                           {data.category_name
                             ? data.category_name
