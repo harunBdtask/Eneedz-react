@@ -1,12 +1,11 @@
 {
   "name": "e-needz",
-  "homepage": "http://68.183.235.232/",
   "version": "2.1.1",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start -p 3003",
+    "start": "node index.js",
     "export": "npm run build && next export -o _static"
   },
   "dependencies": {
